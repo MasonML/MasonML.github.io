@@ -1,0 +1,67 @@
+/* Buttons */
+/**********************/
+
+/* Border Black */
+/**********************/
+button.btn-black {
+  text-align: center;
+  background: white;
+  border: 2px solid #191919;
+  cursor: pointer;
+  font-size: 1em;
+  color: #191919;
+  padding: 14px 28px;
+  border-radius: 5px;
+}
+
+button.btn-black > a {
+    text-decoration: none;
+    color: inherit;
+}
+button.btn:hover {
+  background: #191919;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Border White */
+/**********************/
+button.btn-white {
+  text-align: center;
+  background: white;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 1em;
+  color: #191919;
+  padding: 14px 28px;
+  border-radius: 5px;
+}
+
+button.btn-white > a {
+    text-decoration: none;
+    color: inherit;
+}
+button.btn-white:hover {
+  background: #191919;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Cards */
+/**********************/
+div.card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: white;
+    color: #191919;
+    width: 30em;
+}
+div.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+
+div.card-container {
+    padding: 1em 2em;
+    text-align: center;
+}

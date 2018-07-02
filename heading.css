@@ -1,0 +1,108 @@
+/* Headings Style */
+/***************************/
+
+/* DESKTOP */
+@media only screen and (min-device-width : 900px) and (max-device-width : 1280px) {
+    section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 2.5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
+
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1536px) {
+    section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 2.5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
+
+@media only screen and (min-device-width : 1920px) {
+section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 2.5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-device-width : 600px) and (max-device-width : 799px) {
+section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 2.8em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
+
+@media only screen and (min-device-width : 800px) and (max-device-width : 899px) {
+section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 4.375em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 2.1875em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
+
+
+/* PHONE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 412px) {
+section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
+      font-size: 2em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 500;
+    }
+
+    section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
+      font-size: 1em;
+      text-align: center;
+      line-height: 0.5em;
+      font-weight: 300;
+      padding-bottom: 3em;
+    }
+}
