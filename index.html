@@ -1,69 +1,71 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Mason Machine Learning</title>
-	<link href="stylesheets/css/style.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	</script>
-	<script>
-	$(document).ready(function(){
-	 // Add smooth scrolling to all links
-	 $("a").on('click', function(event) {
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Mason Machine Learning</title>
+    <link href="stylesheets/css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-	   // Make sure this.hash has a value before overriding default behavior
-	   if (this.hash !== "") {
-	     // Prevent default anchor click behavior
-	     event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-	     // Store hash
-	     var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-	     // Using jQuery's animate() method to add smooth page scroll
-	     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	     $('html, body').animate({
-	       scrollTop: $(hash).offset().top
-	     }, 800, function(){
-	  
-	       // Add hash (#) to URL when done scrolling (default click behavior)
-	       window.location.hash = hash;
-	     });
-	   } // End if
-	 });
-	});
-	</script>
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </head>
+
 <body>
-    
-	<section class="navigation">
-		<nav>
-			<a href="#intro">Mason Machine Learning</a>
-			<ul>
-				<li>
-					<a href="#social">Connect</a>
-				</li>
-				<li>
-					<a href="#people">People</a>
-				</li>
-				<li>
-					<a href="#resources">Resources</a>
-				</li>
-			</ul>
-		</nav>
-	</section>
 
-	<section class="intro" id="intro">
-		<container>
-			<figure>
-				<img alt="Mason Machine Learning Logo" src="images/mlylogon.png" width="150px">
-			</figure>
-			<figcaption>
-				Mason Machine Learning (<abbr>MML</abbr>) aims to provide a forum for collaborative learning and software development in machine learning to significantly enrich the experiences of students through our work on Artificial Intelligence.
-			</figcaption><a href="#social"><img alt="down arrow" src="https://png.icons8.com/ios/100/ffffff/expand-arrow-filled.png" style="display: flex; align-items:center"></a> 
-		</container>
-	</section>
+    <section class="navigation">
+        <nav>
+            <a href="#intro">Mason Machine Learning</a>
+            <ul>
+                <li>
+                    <a href="#social">Connect</a>
+                </li>
+                <li>
+                    <a href="#people">People</a>
+                </li>
+                <li>
+                    <a href="#resources">Resources</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
+    <section class="intro" id="intro">
+        <container>
+            <figure>
+                <img alt="Mason Machine Learning Logo" src="images/mlylogon.png" width="150px">
+            </figure>
+            <figcaption>
+                Mason Machine Learning (<abbr>MML</abbr>) aims to provide a forum for collaborative learning and software development in machine learning to significantly enrich the experiences of students through our work on Artificial Intelligence.
+            </figcaption>
+            <a href="#social"><img alt="down arrow" src="https://png.icons8.com/ios/100/ffffff/expand-arrow-filled.png" style="display: flex; align-items:center"></a>
+        </container>
+    </section>
 
     <section id="social" class="social">
         <container>
@@ -71,57 +73,58 @@
             <h2>Join us in our Machine Learning events and workshops.</h2>
             <items>
                 <section>
-                  <div class="card">
-                    <div class="card-container">
-                    <img src="https://png.icons8.com/android/96/000000/clock.png" width="50px"><h4><b>Next Meeting</b></h4>
-                    <p>Name: TBA</p>
-                        <p>Location: TBA</p>
+                    <div class="card">
+                        <div class="card-container">
+                            <img src="https://png.icons8.com/android/96/000000/clock.png" width="50px">
+                            <h4><b>Next Meeting</b></h4>
+                            <p>Name: TBA</p>
+                            <p>Location: TBA</p>
                             <p>Date: TBA</p>
                         </div>
-                        </div>
+                    </div>
                 </section>
                 <br />
                 <section>
                     <button class="btn"><a href="https://mason-ml.slack.com/" target="_blank">Join us on Slack</a></button>
                 </section>
-        </items>
+            </items>
         </container>
     </section>
-    
+
     <section id="people" class="people">
         <container>
-        <h1>Our Executive Team</h1>
-        <items>
-            <section>
-                <img src="http://via.placeholder.com/50x50" alt="Image of Albert L" />
-                <p>Albert L</p>
-                <p>President</p>
-            </section>
-            <section>
-                <img src="http://via.placeholder.com/50x50" alt="Image of Samuel S" />
-                <p>Samuel S</p>
-                <p>VP of Research</p>
-            </section>
-            <section>
-                <img src="http://via.placeholder.com/50x50" alt="Image of Emily P" />
-                <p>Emily P</p>
-                <p>VP of External Affairs</p>
-            </section>
-            <section>
-                <img src="http://via.placeholder.com/50x50" alt="Image of Carlos G" />
-                <p>Carlos G</p>
-                <p>VP of Projects</p>
-            </section>
-            <section>
-                <img src="http://via.placeholder.com/50x50" alt="Image of Joe P" />
-                <p>Joe P</p>
-                <p>VP of Internal Affairs</p>
-            </section>
-        </items>
-        <button class="btn">See Our Members</button>
-            </container>
+            <h1>Our Executive Team</h1>
+            <items>
+                <section>
+                    <img src="http://via.placeholder.com/50x50" alt="Image of Albert L" />
+                    <p>Albert L</p>
+                    <p>President</p>
+                </section>
+                <section>
+                    <img src="http://via.placeholder.com/50x50" alt="Image of Samuel S" />
+                    <p>Samuel S</p>
+                    <p>VP of Research</p>
+                </section>
+                <section>
+                    <img src="http://via.placeholder.com/50x50" alt="Image of Emily P" />
+                    <p>Emily P</p>
+                    <p>VP of External Affairs</p>
+                </section>
+                <section>
+                    <img src="http://via.placeholder.com/50x50" alt="Image of Carlos G" />
+                    <p>Carlos G</p>
+                    <p>VP of Projects</p>
+                </section>
+                <section>
+                    <img src="http://via.placeholder.com/50x50" alt="Image of Joe P" />
+                    <p>Joe P</p>
+                    <p>VP of Internal Affairs</p>
+                </section>
+            </items>
+            <button class="btn">See Our Members</button>
+        </container>
     </section>
-    
+
     <section id="resources" class="resources">
         <container>
             <h1>Resources</h1>
@@ -134,22 +137,23 @@
                     <button class="btn">See Resources</button>
                 </section>
                 <section>
-                  <img src="https://png.icons8.com/android/96/ffffff/about.png">
+                    <img src="https://png.icons8.com/android/96/ffffff/about.png">
                     <br />
-                     <p>Are curious about our organization?</p>
+                    <p>Are curious about our organization?</p>
                     <br />
                     <button class="btn">
-                    See Mason Machine Learning
+                        See Mason Machine Learning
                     </button>
                 </section>
-                </items>
+            </items>
         </container>
     </section>
-    
+
     <footer>
         <container>
-        <figure><img src="images/mlylogon.png" alt="Mason Machine Learning Logo" width="50px" /></figure>
-            </container>
+            <figure><img src="images/mlylogon.png" alt="Mason Machine Learning Logo" width="50px" /></figure>
+        </container>
     </footer>
 </body>
+
 </html>
