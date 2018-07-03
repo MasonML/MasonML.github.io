@@ -1,67 +1,106 @@
-/* Buttons */
-/**********************/
+/* Headings Style */
+/***************************/
 
-/* Border Black */
-/**********************/
-button.btn-black {
-  text-align: center;
-  background: white;
-  border: 2px solid #191919;
-  cursor: pointer;
-  font-size: 1em;
-  color: #191919;
-  padding: 14px 28px;
-  border-radius: 5px;
+/* DESKTOP */
+/* 900px x 1450px */
+@media only screen and (min-device-width : 900px) and (max-device-width : 1450px) {
+    /* Buttons */
+    /**********************/
+
+    /* Border Black */
+    /**********************/
+    button.btn-black {
+      text-align: center;
+      background: white;
+      border: 2px solid #191919;
+      cursor: pointer;
+      font-size: 1em;
+      color: #191919;
+      padding: 15px 30px;
+      border-radius: 5px;
+    }
+
+    button.btn-black > a {
+        text-decoration: none;
+        color: inherit;
+    }
+    button.btn-black:hover {
+      background: #191919;
+      color: white;
+      transition: 0.3s;
+      border: 2px solid #191919;
+    }
+
+
+    /* Border White */
+    /**********************/
+    button.btn-white {
+      text-align: center;
+      background: white;
+      border: 2px solid white;
+      cursor: pointer;
+      font-size: 1em;
+      color: #191919;
+      padding: 15px 30px;
+      border-radius: 5px;
+    }
+
+    button.btn-white > a {
+        text-decoration: none;
+        color: inherit;
+    }
+    button.btn-white:hover {
+      background: #191919;
+      color: white;
+      transition: 0.3s;
+      border: 2px solid #191919;
+    }
+
+    /* Cards */
+    /**********************/
+    div.card {
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        background-color: white;
+        color: #191919;
+        width: 30.2em;
+        font-size: 1em;
+    }
+    div.card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+    }
+
+    div.card-container {
+        padding: 1.5em 2em;
+        text-align: center;
+    }
 }
 
-button.btn-black > a {
-    text-decoration: none;
-    color: inherit;
-}
-button.btn:hover {
-  background: #191919;
-  color: white;
-  transition: 0.3s;
+/* 1451px x higher */
+@media only screen and (min-device-width : 1451px) {
+  
 }
 
-/* Border White */
-/**********************/
-button.btn-white {
-  text-align: center;
-  background: white;
-  border: 2px solid white;
-  cursor: pointer;
-  font-size: 1em;
-  color: #191919;
-  padding: 14px 28px;
-  border-radius: 5px;
+/* TABLET */
+/* 600px x 799px */
+@media only screen and (min-device-width : 600px) and (max-device-width : 799px) {
+
 }
 
-button.btn-white > a {
-    text-decoration: none;
-    color: inherit;
-}
-button.btn-white:hover {
-  background: #191919;
-  color: white;
-  transition: 0.3s;
+/* 800px x 899px */
+@media only screen and (min-device-width : 800px) and (max-device-width : 899px) {
+
 }
 
-/* Cards */
-/**********************/
-div.card {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    background-color: white;
-    color: #191919;
-    width: 30em;
-}
-div.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+
+/* PHONE */
+/* 320px x 499px */
+@media only screen and (min-device-width : 320px) and (max-device-width : 499px) {
+
 }
 
-div.card-container {
-    padding: 1em 2em;
-    text-align: center;
+/* 500px x 599px */
+@media only screen and (min-device-width : 500px) and (max-device-width : 599px) {
+
 }
