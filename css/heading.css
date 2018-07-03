@@ -1,0 +1,126 @@
+/* Headings Style */
+/***************************/
+
+/* DESKTOP */
+/* 900px x 1450px */
+@media screen and (min-device-width : 900px) and (max-device-width : 1450px) {
+    section.white-container > h1, section.green-container > h1 {
+      font-size: 2.8125em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+     section.green-container > h1, section.white-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 1.5em;
+      text-align: center;
+      font-weight: 300;
+    }
+}
+
+/* 1451px x higher */
+@media screen and (min-device-width : 1451px) {
+     section.white-container > h1, section.green-container > h1 {
+      font-size: 4.0625em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+     section.green-container > h1, section.white-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 2.5em;
+      text-align: center;
+      font-weight: 300;
+    }
+}
+
+/* TABLET */
+/* 600px x 799px */
+@media screen and (min-device-width : 600px) and (max-device-width : 799px) {
+ section.white-container > h1, section.green-container > h1 {
+      font-size: 1.875em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+     section.green-container > h1, section.white-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 1.125em;
+      text-align: center;
+      font-weight: 300;
+    }
+}
+
+/* 800px x 899px */
+@media only screen and (min-device-width : 800px) and (max-device-width : 899px) {
+ section.white-container > h1, section.green-container > h1 {
+      font-size: 2.375em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    section.green-container > h1, section.white-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 1.3125em;
+      text-align: center;
+      font-weight: 300;
+    }
+}
+
+
+/* PHONE */
+/* 320px x 499px */
+@media screen and (min-device-width : 320px) and (max-device-width : 499px) {
+ section.white-container > h1, section.green-container > h1 {
+      font-size: 1.25em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+     section.green-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 0.75em;
+      text-align: center;
+      font-weight: 300;
+    }
+}
+
+/* 500px x 599px */
+@media screen and (min-device-width : 500px) and (max-device-width : 599px) {
+ section.white-container > h1, section.green-container > h1 {
+      font-size: 1.5625em;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    section.green-container > h1, section.white-container > h1 {
+      padding-bottom: 1.5em;
+
+    }
+
+   section.white-container > h2, section.green-container > h2 {
+      font-size: 0.9375em;
+      text-align: center;
+      font-weight: 300;
+    }
+}

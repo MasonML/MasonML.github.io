@@ -13,21 +13,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-section.social > container > h1, section.people > container > h1, section.resources > container > h1 {
-  font-size: 2em;
-  text-align: center;
-  line-height: 0.5em;
-  font-weight: 500;
-}
-
-section.social > container > h2, section.people > container > h2, section.resources > container > h2 {
-  font-size: 1em;
-  text-align: center;
-  line-height: 0.5em;
-  font-weight: 300;
-  padding-bottom: 3em;
-}
-
+/* Navigation Section */
+/***************************/
 section.navigation nav {
   display: flex;
   font-size: 1em;
@@ -45,9 +32,7 @@ section.navigation nav {
 }
 section.navigation nav a {
   flex: 4;
-  margin: 0px;
-  padding: 0px;
-  padding-left: 1em;
+  padding: 1em;
   color: white;
   text-decoration: none;
 }
@@ -71,7 +56,7 @@ section.navigation nav ul li a:hover {
   color: #F4E409;
 }
 @media screen and (max-width: 834px) {
-  section.navigation nav {
+  section.navigation > nav {
     display: flex;
     font-size: 1em;
     flex-direction: column;
@@ -79,135 +64,95 @@ section.navigation nav ul li a:hover {
   }
 }
 
-section.intro > container {
-  background-color: #191919;
-  color: white;
+/* Introduction Section */
+/***************************/
+.black-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-    align-items: center;
+  align-items: center;
+  text-align: center;
+  background-color: #191919;
+  color: white;
   height: 100vh;
 }
-section.intro > container > figure {
-   text-align: center;
-}
-section.intro > container > figcaption {
-  text-align: center;
-  font-size: 1em;
+
+#intro-figcap {
+  font-size: 1.15em;
   padding: 1em 5em 1em 5em;
 }
 
-section.intro > container > a > img {
-   padding-top: 10em;
+#intro-arrow {
+   padding-top: 5em;
 }
 
-section.social > container {
-  background-color: #006633;
-  color: white;
-  height: 100vh;
+/* Social Section */
+/***************************/
+
+.social-items {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-section.social > container > items {
-  display: flex;
-  justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-
-section.people > container {
-  height: 100vh;
+/* People Section */
+/***************************/
+.white-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: white;
+  height: 100vh;
 }
-section.people > container h1 {
-  padding-bottom: 3em;
-}
-section.people > container items {
+
+.people-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1.25em;
 }
-section.people > container items section {
+
+.people-item {
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: center;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-section.resources > container {
+/* Resources Section */
+/***************************/
+.green-container  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   background-color: #006633;
   color: white;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-section.resources > container > items {
+
+.items {
   display: flex;
   justify-content: space-around;
-}
-section.resources > container > items section {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  text-align: center;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-section.resources > container h1 {
-  padding-bottom: 3em;
+.item {
+  display: inline-block;
+  text-align: center;    
 }
 
+/* footer Section */
+/***************************/
 footer {
   background-color: #191919;
   color: white;
   text-align: center;
 }
 
-button.btn {
-  text-align: center;
-  background: white;
-  border: 2px solid #191919;
-  cursor: pointer;
-  font-size: 1em;
-  color: #191919;
-  padding: 14px 28px;
-  border-radius: 5px;
-}
-
-button.btn > a {
-    text-decoration: none;
-    color: inherit;
-}
-button.btn:hover {
-  background: #191919;
-  color: white;
-  transition: 0.3s;
-}
-
-div.card {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    background-color: white;
-    color: #191919;
-    width: 30em;
-}
-div.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
-}
-
-div.card-container {
-    padding: 1em 2em;
-    text-align: center;
-}
