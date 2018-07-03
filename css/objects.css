@@ -103,6 +103,7 @@
 /* 500px x 599px */
 @media only screen and (min-device-width : 500px) and (max-device-width : 599px) {
 
+<<<<<<< HEAD
 }
 
     /* Buttons */
@@ -176,3 +177,6 @@
         padding: 1.5em 2em;
         text-align: center;
     }
+=======
+}
+>>>>>>> 8455422133ec19c0002cfa471607a3e5a2e744e3
