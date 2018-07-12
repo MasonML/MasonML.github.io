@@ -301,5 +301,6 @@ html, body {
 
     #banner, #connect {
         background-color: #070707;
+        height: 3.9rem;
     }
 }
