@@ -284,6 +284,9 @@ html, body {
     #resources, #people, #connect {
         height: 4rem;
         background-color: white;
+        margin: 0px;
+        padding: 0px;
+        border-color: white;
     }
 
     #banner, #connect {
