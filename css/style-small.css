@@ -9,9 +9,9 @@ html, body {
     font-family: sans-serif;
 }
 
-@media (min-width: 729px) {
-
-    .container {
+@media (max-width: 550px) {
+    
+     .container {
         margin: 0rem;
         padding: 0rem;
         position: relative;
@@ -40,74 +40,77 @@ html, body {
         font-size: 1rem;
         color: white;
     }
-
+    
+    /* Different from style-medium */
     .text-logo {
-        width: 16rem;
+        width: 10rem;
         display: inline-flex;
-        background-color: #004B26;
+      
     }
 
     .text-logo > a {
         margin: auto;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         color: white;
-        padding-top: 1.41rem;
-        padding-bottom: 1.44rem;
+        padding-top: .86rem;
+        padding-bottom: .86rem;
+        font-size: 16px;
     }
 
+    /* End */
     nav {
         width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
+    }
+    
+    #nav-list {
+        visibility: hidden;
     }
 
-    nav > ul {
-        list-style-type: none;
+    .dropbtn {
         display: flex;
-        justify-content: space-evenly;
-    }
-
-    nav > ul > li {
-        padding-left: 2.9rem;
-        padding-right: 2.9rem;
-        padding-top: 1.41rem;
-        padding-bottom: 1.44rem;
-        transition: all 0.3s ease 0s;
-    }
-
-    nav > ul > li:hover {
-        background-color: #006633;
-        color: white;
+        background-color: transparent;
+        margin-top: .95rem;
+        margin-bottom: .95rem;
+        margin-left: 4rem;
+        margin-right: 2rem;
+        border: none;
         cursor: pointer;
     }
 
-    button:focus {
-        outline: 0;
-    }
-
-    /* Dropdown Menu */
-    .dropbtn {
-      visibility: hidden;
-    }
-
     .dropdown {
-              visibility: hidden;
+        position: relative;
+        display: inline-block;
     }
 
     .dropdown-content {
-           visibility: hidden;
-
+        display: none;
+        position: relative;
+        background-color: #191919;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
     }
 
     .dropdown-content a {
-      visibility: hidden;
-
+        text-align: center;
+        color: white;
+        margin: auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease 0s;
     }
+
+    .dropdown a:hover {background-color: #006633;}
+
+    .show {display: block;}
 
     /* Banner */
     .banner-container {
-        padding-top: 4rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -117,20 +120,23 @@ html, body {
     }
 
     .b-text {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
+    /* Different from style-medium */
+    /* Banner */
     .b-text > h1 {
-        font-size: 2rem;
+        font-size: 20px;
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
         color: white;
     }
-
+    /* End */
+    
     .b-text > p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-align: center;
         color: white;
     }
@@ -144,14 +150,17 @@ html, body {
         animation: shadow 3s;
     }
 
+    /* Different from style-medium */
     #banner-logo {
+        width: 150px;
         z-index: 1;
-        width: 15%;
         animation: shadow 2s;
         filter: drop-shadow(14px 10px 50px #006633);
     }
+    /* End */
+    
     #banner {
-        height: 8rem;
+        height: 20vh;
     }
 
 
@@ -186,16 +195,18 @@ html, body {
         color: white;
         font-family: 'Oxygen', sans-serif;
     }
-
+    
+    /* Different from style-medium */
     .section-text > h1 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .section-text > p {
-        font-size: 2rem;
+        font-size: 1rem;
         margin-bottom: 20px;
     }
-
+    /* End */
+    
     /* Section Body Container */
     .body-container {
         display: flex;
@@ -205,27 +216,29 @@ html, body {
         justify-content: center;
         height: 70vh;
     }
-
+/* Different from style-medium */
     .body-container > h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
         color: #191919;
         margin-top: 5rem;
         margin-bottom: 1rem;
     }
-
+/* End */
+    
     .body-text {
         text-align: center;
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-
+    
+/* Different from style-medium */
     .body-text > p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
-
-    .body-container > h1 > img {
+/* End */
+.body-container > h1 > img {
         padding-right: 10px;
         width: 40px;
     }
