@@ -6,18 +6,25 @@
     <title>Mason Machine Learning</title>
     <link rel="stylesheet" type="text/css" href="css/animate.css" >
     <link rel="stylesheet" type="text/css" href="css/objects.css" >
+    <link rel="stylesheet" type="text/css" href="css/card.css" >
     <link rel="stylesheet" type="text/css" href="css/style.css" >
-    <link rel="stylesheet" type="text/css" href="css/style-medium.css" >
-    <link rel="stylesheet" type="text/css" href="css/style-small.css" >
+    <link rel="stylesheet" type="text/css" href="css/style-550px.css" >
+    <link rel="stylesheet" type="text/css" href="css/style-551px-to-728px.css" >
+    <link rel="stylesheet" type="text/css" href="css/style-729px.css" >
     <script src="js/dropdown-button.js"></script>
     <script src="js/scroll.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" >
+    <script>
+      function scrollWin() {
+          window.scrollTo(0,0);
+      }
+      </script>
   </head>
   <body>
       <div class="container">
         <header class="header">
-            <div class="text-logo-container" onclick="location.href = '#connect'">
-                <div class="text-logo"><a href="#banner" class="plain-text-w">Mason Machine Learning</a></div>
+            <div class="text-logo-container" onclick="scrollWin()">
+                <div class="text-logo"><a href="#" onclick="scrollWin()" class="plain-text-w">Mason Machine Learning</a></div>
             </div>
             <nav>
                 <ul id="nav-list">
@@ -36,7 +43,6 @@
             </nav>
         </header>
         <!-- Banner Area !-->
-        <div id="banner"></div>
         <div class="banner-container">
             <div class="b-text">
                 <img src="images/logo-g.png" alt="logo" id="banner-logo">
@@ -72,35 +78,49 @@
         <!-- People Body !-->
         <div class="body-container">
             <div class="body-text">
-                <!--
-                <div>
-                    <div>
-                        <img src="images/placeholder.jpg" alt="photo">
-                        <p>Emily P</p>
-                        <p>VP of External Affairs</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.jpg" alt="photo">
-                        <p>Samuel S</p>
-                        <p>VP of Research</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.jpg" alt="photo">
-                        <p>Albert L</p>
-                        <p>President</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.jpg" alt="photo">
-                        <p>Carlos G</p>
-                        <p>VP of Projects</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.jpg" alt="photo">
-                        <p>Joe P</p>
-                        <p>VP of Internal Affairs</p>
-                    </div>
+                
+            <div class="cards">
+                <div class="card">
+                  <div class="card-image bg-ea">
+                  </div>
+                  <div class="card-text">
+                      <p>Emily P</p>
+                      <p>VP of External Affairs</p>
+                  </div>
                 </div>
-                !-->
+                <div class="card">
+                  <div class="card-image bg-r">
+                  </div>
+                  <div class="card-text">
+                      <p>Samuel S</p>
+                      <p>VP of Research</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-image bg-pt">
+                  </div>
+                  <div class="card-text">
+                      <p>Albert L</p>
+                      <p>President</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-image bg-ps">
+                  </div>
+                  <div class="card-text">
+                      <p>Carlos G</p>
+                      <p>VP of Projects</p>
+                  </div>
+                </div>
+                 <div class="card">
+                  <div class="card-image bg-ia">
+                  </div>
+                  <div class="card-text">
+                      <p>Joe P</p>
+                      <p>VP of Internal Affairs</p>
+                  </div>
+                </div>
+            </div>
                 <button class="btn-black">See Our Members</button>
             </div>
         </div>
@@ -114,6 +134,7 @@
         <!-- Resources Body !-->
         <div class="body-container">
             <div class="body-text">
+                <p>We encourage everyone to learn more about machine learning and artificial intelligence.</p>
                 <button class="btn-black">See Resources</button>
             </div>
         </div>
