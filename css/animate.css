@@ -2,24 +2,31 @@
 
 @keyframes shadow {
   from,
-  20% {
+  10% {
     visibility: hidden;
   }
   23% {
-    filter: drop-shadow(14px 10px 50px #006633);
       opacity: 0.05;
     }
-  24% {
+  24%, 28% {
       opacity: 0;
   }
   27% {
-    filter: drop-shadow(14px 10px 100px #006633); 
       opacity: 0.3;
-  }
-    28% {
-      opacity: 0;
   }
   to {
     opacity: 1;
   }
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.pre-load {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/load.svg') center no-repeat #fff;
 }
