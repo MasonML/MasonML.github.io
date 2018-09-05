@@ -1,8 +1,7 @@
 @media (max-width: 550px) {
     .text-logo {
         width: 10rem;
-        display: inline-flex;
-      
+        display: inline-flex; 
     }
 
     .text-logo > a {
