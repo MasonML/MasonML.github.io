@@ -2,28 +2,6 @@
 
 @keyframes shadow {
   from,
-<<<<<<< HEAD
-  20% {
-    visibility: hidden;
-  }
-  23% {
-    filter: drop-shadow(14px 10px 50px #006633);
-      opacity: 0.05;
-    }
-  24% {
-      opacity: 0;
-  }
-  27% {
-    filter: drop-shadow(14px 10px 100px #006633); 
-      opacity: 0.3;
-  }
-    28% {
-      opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-=======
   10% {
     visibility: hidden;
   }
@@ -51,5 +29,4 @@
 	height: 100%;
 	z-index: 9999;
 	background: url('../images/load.svg') center no-repeat #fff;
->>>>>>> 7194f044955cd55672558be0d9d44765427ac168
 }
