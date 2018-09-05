@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="css/style-550px.css" >
     <link rel="stylesheet" type="text/css" href="css/style-551px-to-728px.css" >
     <link rel="stylesheet" type="text/css" href="css/style-729px.css" >
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+      <script src="js/load.js"></script>
     <script src="js/dropdown-button.js"></script>
     <script src="js/scroll.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" >
@@ -18,9 +21,14 @@
       function scrollWin() {
           window.scrollTo(0,0);
       }
+        
+        var elm = window.getElementById('banner-logo'),
+var newone = elm.cloneNode(true);
+elm.parentNode.replaceChild(newone, elm);
       </script>
   </head>
   <body>
+      <div class="pre-load"></div>
       <div class="container">
         <header class="header">
             <div class="text-logo-container" onclick="scrollWin()">
