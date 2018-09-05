@@ -1,7 +1,12 @@
 @media (max-width: 550px) {
     .text-logo {
         width: 10rem;
+<<<<<<< HEAD
         display: inline-flex; 
+=======
+        display: inline-flex;
+      
+>>>>>>> 7194f044955cd55672558be0d9d44765427ac168
     }
 
     .text-logo > a {

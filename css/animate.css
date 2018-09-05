@@ -2,6 +2,7 @@
 
 @keyframes shadow {
   from,
+<<<<<<< HEAD
   20% {
     visibility: hidden;
   }
@@ -22,4 +23,33 @@
   to {
     opacity: 1;
   }
+=======
+  10% {
+    visibility: hidden;
+  }
+  23% {
+      opacity: 0.05;
+    }
+  24%, 28% {
+      opacity: 0;
+  }
+  27% {
+      opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.pre-load {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/load.svg') center no-repeat #fff;
+>>>>>>> 7194f044955cd55672558be0d9d44765427ac168
 }
