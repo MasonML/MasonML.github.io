@@ -7,11 +7,15 @@
 }
 
 details > summary::-webkit-details-marker {
-display: none;
+    outline-style: none;
+    color: lightgrey;
+    font-size: 180%;
 }
 
 details > summary, details > summary:focus {
 outline-style: none;
+display: inline-flex;
+align-items: baseline;
 }
 
 b, h5, h6 {
