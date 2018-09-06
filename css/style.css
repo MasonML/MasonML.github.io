@@ -5,3 +5,18 @@
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%s23006633' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 
 }
+
+details > summary::-webkit-details-marker {
+font-size: 180%;
+color: darkgrey;
+}
+
+details > summary {
+outline-style: none;
+display: inline-flex;
+align-items: baseline;
+}
+
+b, h5, h6 {
+    color: green;
+}
