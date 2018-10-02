@@ -18,6 +18,17 @@ display: inline-flex;
 align-items: baseline;
 }
 
-b, h5, h6 {
+b, h5, h6, .member-name {
     color: green;
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
 }
