@@ -40,3 +40,20 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=0066
 .green-text {
     color: #006633;
 }
+
+.btn-green {
+    background-color: #006633;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btn-green:hover {opacity: 1}
+
+.btn-text-white {
+    color: white;
+}
+
+.btn-text-white:hover {
+    text-decoration: none;
+    color: white;
+}
