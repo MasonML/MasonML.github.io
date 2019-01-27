@@ -41,6 +41,18 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=0066
     color: #006633;
 }
 
+.green-text-link {
+    color: #006633;
+}
+
+.green-text-link:hover, .nav-black-link:hover {
+    color: #ffcc33;
+}
+
+.nav-black-link {
+    color: black;
+}
+
 .btn-green {
     background-color: #006633;
     opacity: 0.8;
