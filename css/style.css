@@ -32,3 +32,7 @@ b, h5, h6, .member-name {
 .headroom--unpinned {
     transform: translateY(-100%);
 }
+
+.navbar .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=006633');
+}
