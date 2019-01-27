@@ -65,6 +65,17 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=0066
 
 .btn-green:hover {opacity: 1}
 
+.btn-yellow {
+    color: #ffcc33;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btn-yellow:hover {
+    opacity: 1; 
+    color: #ffcc33;
+}
+
 .btn-text-white {
     color: white;
 }
