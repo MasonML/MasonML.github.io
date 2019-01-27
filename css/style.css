@@ -53,6 +53,10 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=0066
     color: black;
 }
 
+.yellow-active {
+    color:#ffcc33;
+}
+
 .btn-green {
     background-color: #006633;
     opacity: 0.8;
